@@ -44,19 +44,6 @@ purchase_data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -141,19 +128,6 @@ players_count
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -195,11 +169,6 @@ purchase_summary = purchase_summary.style.format({'Average Purchase Price': '${:
 purchase_summary
 ```
 
-
-
-
-<style  type="text/css" >
-</style>  
 <table id="T_a249c15e_8497_11e8_a94a_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -240,8 +209,6 @@ gender_demo
 
 
 
-<style  type="text/css" >
-</style>  
 <table id="T_a2ed0506_8497_11e8_94eb_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -293,16 +260,11 @@ gender_stats = gender_stats[['Purchase Count', 'Average Purchase Price', 'Total 
 gender_stats = gender_stats.style.format({'Total Purchase Value': '${:.2f}', 'Average Purchase Price': '${:.2f}', 'Normalized Totals':'${:.2f}'})
 gender_stats
 ```
-
-    C:\Users\creatural1\AppData\Local\Continuum\anaconda3\lib\site-packages\pandas\core\groupby.py:4291: FutureWarning: using a dict with renaming is deprecated and will be removed in a future version
-      return super(DataFrameGroupBy, self).aggregate(arg, *args, **kwargs)
     
 
 
 
 
-<style  type="text/css" >
-</style>  
 <table id="T_a39e7d06_8497_11e8_a37b_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -368,8 +330,6 @@ age_demo
 
 
 
-<style  type="text/css" >
-</style>  
 <table id="T_a4513f54_8497_11e8_9ed3_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -440,16 +400,8 @@ age_stats = age_stats[['Purchase Count', 'Average Purchase Price', 'Total Purcha
 age_stats = age_stats.style.format({'Total Purchase Value': '${:.2f}', 'Average Purchase Price': '${:.2f}', 'Normalized Totals':'${:.2f}'})
 age_stats
 ```
-
-    C:\Users\creatural1\AppData\Local\Continuum\anaconda3\lib\site-packages\pandas\core\groupby.py:4291: FutureWarning: using a dict with renaming is deprecated and will be removed in a future version
-      return super(DataFrameGroupBy, self).aggregate(arg, *args, **kwargs)
-    
-
-
-
-
-<style  type="text/css" >
-</style>  
+   
+ 
 <table id="T_a4fd998a_8497_11e8_b83d_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -540,16 +492,7 @@ spend_summ = spend_summ[0:5]
 spend_summ = spend_summ.style.format({'Total Purchase Value': '${:.2f}', 'Average Purchase Price': '${:.2f}'})
 spend_summ
 ```
-
-    C:\Users\creatural1\AppData\Local\Continuum\anaconda3\lib\site-packages\pandas\core\groupby.py:4291: FutureWarning: using a dict with renaming is deprecated and will be removed in a future version
-      return super(DataFrameGroupBy, self).aggregate(arg, *args, **kwargs)
-    
-
-
-
-
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_a59ccc36_8497_11e8_ae38_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -626,11 +569,6 @@ top_5_purchases = top_5_purchases.style.format({'Total Purchase Value': '${:.2f}
 top_5_purchases
 ```
 
-
-
-
-<style  type="text/css" >
-</style>  
 <table id="T_a63b5586_8497_11e8_8318_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank" ></th> 
@@ -695,12 +633,7 @@ top_5_volume = top_5_volume.style.format({'Total Purchase Value': '${:.2f}', 'It
 
 top_5_volume
 ```
-
-
-
-
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_a6bfd3f4_8497_11e8_a4e6_34f39af3d017" > 
 <thead>    <tr> 
         <th class="blank" ></th> 
