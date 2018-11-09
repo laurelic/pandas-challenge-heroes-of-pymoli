@@ -1,6 +1,10 @@
 
 ### Heroes Of Pymoli Data Analysis
 
+![pymoli](Resources/max-felner-370157-unsplash.jpg)
+
+Photo by [Max Felner](https://unsplash.com/photos/_yrCYuCjMYo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 Top Line Stats
 * Among 576 customers, we have sold 780 items worth \$2.4k based on an offering of 183 products. (refer to 'Purchasing Analysis - Total')
 * AUR (average unit retail) hovering at $3.05
